@@ -1,0 +1,49 @@
+#playerContainer {
+    position: relative;
+}
+
+#player {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.bg-black {
+    background: #000;
+}
+
+#searchedVideosHeader {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.va-m {
+    vertical-align: middle !important;
+}
+
+#profilePic {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    border: 5px solid var(--bs-nav-link-color);
+}
+
+#profilePic:hover {
+    border-color: var(--bs-navbar-hover-color);
+}
+
+.scorePic, .levelPic {
+    height: 8em;
+    width: 8em;
+}
+
+.fa_xlg {
+    font-size: 4em;
+}
